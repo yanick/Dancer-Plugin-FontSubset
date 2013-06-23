@@ -4,7 +4,6 @@ Revision history for Dancer-Plugin-FontSubset
  [API CHANGES]
 
  [BUG FIXES]
- - Attribute 'config' was clobbering Dancer function config.
 
  [DOCUMENTATION]
 
@@ -13,6 +12,13 @@ Revision history for Dancer-Plugin-FontSubset
  [NEW FEATURES]
 
  [STATISTICS]
+
+0.1.1 2013-06-22
+ [BUG FIXES]
+ - Attribute 'config' was clobbering Dancer function config.
+
+ [STATISTICS]
+ - code churn: 2 files changed, 22 insertions(+), 5 deletions(-)
 
 0.1.0 2013-06-22
  - First version, unleashed on an unsuspecting world.
