@@ -107,7 +107,7 @@ use Font::TTF::Scripts::Name;
 use Moo;
 with 'MooX::Singleton';
 
-has config => (
+has _config => (
     is => 'ro',
     lazy => 1,
     default => sub { 
@@ -119,7 +119,7 @@ has fonts_dir => (
     is => 'ro',
     lazy => 1,
     default => sub {
-        $_[0]->config->{fonts_dir} || 'public/fonts';
+        $_[0]->_config->{fonts_dir} || 'public/fonts';
     },
 );
 
@@ -127,7 +127,7 @@ has font_base_url => (
     is => 'ro',
     lazy => 1,
     default => sub {
-        $_[0]->config->{font_base_url} || '/font';
+        $_[0]->_config->{font_base_url} || '/font';
     },
 );
 
@@ -135,7 +135,7 @@ has use_cache => (
     is => 'ro',
     lazy => 1,
     default => sub {
-        $_[0]->config->{use_cache};
+        $_[0]->_config->{use_cache};
     },
 );
 

@@ -4,6 +4,7 @@ Revision history for Dancer-Plugin-FontSubset
  [API CHANGES]
 
  [BUG FIXES]
+ - Attribute 'config' was clobbering Dancer function config.
 
  [DOCUMENTATION]
 
