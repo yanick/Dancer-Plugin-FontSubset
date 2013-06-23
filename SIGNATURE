@@ -1,0 +1,42 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.68.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 1ff24ff32c6534cf6e187afc5c18f34651b1ea8f AUTHOR_PLEDGE
+SHA1 6a8efbd8b86f7238a0c71042d31b5dbd3a33d3b6 Build.PL
+SHA1 b312c74ff70f95a8a7dcdd3c1c9cf3adbadb8478 CONTRIBUTORS
+SHA1 1b71d67a58673f6323b23a4109c39bf66091dfae Changes
+SHA1 47e71f9cff702e39ef1685369924b3b1b6db31e7 INSTALL
+SHA1 cf5dc9c929415cfa7133eed863def866ade9774d LICENSE
+SHA1 0cd685024e43035fddc2a62016bd7fa0ff41056d MANIFEST
+SHA1 9928bbe9c282c40ab2761f0ecbc6780e4fb6f64e META.json
+SHA1 cc3c6215f154d626143ed14fd9dc47161b503f01 META.yml
+SHA1 89ffaf23a38c40e6db94467b65fc181f229699c8 README
+SHA1 746ada62c32576f328232c5b4c92e749c3014ce9 README.mkdn
+SHA1 63e8a3e163228ea5d794c243b7b2ecf0cd1f4c47 lib/Dancer/Plugin/FontSubset.pm
+SHA1 3cbe905b92fbc69d59a06031d5ce6c837b352aa2 t/00-compile.t
+SHA1 dc77d4dd159fff3d05546a8f13bba616616b6653 t/000-report-versions-tiny.t
+SHA1 cc147bcf6fc51ed27cfe94f7e85b94c1b1ae89f9 t/basic.t
+SHA1 3b630b7571847c8421f0f531aee47428a0083af9 t/cache.t
+SHA1 e568471ed95b9d819c75fb0876adb66c2a55f3d8 t/fonts/Bocklin.license.txt
+SHA1 4f71867b77ee43f066d705c2c3aa6590300ba5cd t/fonts/Bocklin.ttf
+SHA1 ec3f84bfd7a9ce3246e7592f4134100c6b5ce02b xt/release/unused-vars.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+iEYEARECAAYFAlHGYEEACgkQ34Hwf+GwC4yiEwCgiQubcqfeO6jYfGO/Q2jY7XWj
+VM4AoPW1HKNpXJwmHq5IZoFB5d+NDLeQ
+=j3jD
+-----END PGP SIGNATURE-----
