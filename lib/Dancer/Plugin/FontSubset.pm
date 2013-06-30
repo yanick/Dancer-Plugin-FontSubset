@@ -97,6 +97,8 @@ L<Font::TTF::Font>
 
 =cut
 
+use 5.12.0;
+
 use Dancer ':syntax';
 use Dancer::Plugin;
 
