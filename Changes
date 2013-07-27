@@ -4,6 +4,7 @@ Revision history for Dancer-Plugin-FontSubset
  [API CHANGES]
 
  [BUG FIXES]
+ - Set minimal Perl version to 5.12 (RT#87217, reported by Andreas Koenig)
 
  [DOCUMENTATION]
 
